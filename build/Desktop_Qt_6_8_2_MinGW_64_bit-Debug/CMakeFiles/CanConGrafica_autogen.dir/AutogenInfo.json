@@ -300,9 +300,21 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/cefla/Documents/CanConGrafica/globals.h",
+			"MU",
+			"EWIEGA46WW/moc_globals.cpp",
+			null
+		],
+		[
 			"C:/Users/cefla/Documents/CanConGrafica/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/cefla/Documents/CanConGrafica/tcanmxreader.h",
+			"MU",
+			"EWIEGA46WW/moc_tcanmxreader.cpp",
 			null
 		]
 	],
@@ -378,7 +390,8 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/cefla/Documents/CanConGrafica/main.cpp", "MU", null ],
-		[ "C:/Users/cefla/Documents/CanConGrafica/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/cefla/Documents/CanConGrafica/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/cefla/Documents/CanConGrafica/tcanmxreader.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

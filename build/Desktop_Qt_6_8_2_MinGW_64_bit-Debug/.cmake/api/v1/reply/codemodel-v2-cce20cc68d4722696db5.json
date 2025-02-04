@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-40add7ab133562fa49f0.json",
+					"jsonFile" : "directory-.-Debug-3131a73aad1b1f2ad9a0.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CanConGrafica::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CanConGrafica-Debug-b1b0cd1ef4a168836b0e.json",
+					"jsonFile" : "target-CanConGrafica-Debug-49fa97f1fada3f5df142.json",
 					"name" : "CanConGrafica",
 					"projectIndex" : 0
 				},

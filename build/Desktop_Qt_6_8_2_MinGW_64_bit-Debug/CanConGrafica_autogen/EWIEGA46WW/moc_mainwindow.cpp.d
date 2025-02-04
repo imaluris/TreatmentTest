@@ -152,6 +152,8 @@ C:/Users/cefla/Documents/CanConGrafica/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug
   C:/Qt/6.8.2/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/QListWidget \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.8.2/mingw_64/include/QtWidgets/QPushButton \
+  C:/Qt/6.8.2/mingw_64/include/QtWidgets/qabstractbutton.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qabstractitemview.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
@@ -161,6 +163,7 @@ C:/Users/cefla/Documents/CanConGrafica/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qlistview.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qlistwidget.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.8.2/mingw_64/include/QtWidgets/qpushbutton.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qrubberband.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.8.2/mingw_64/include/QtWidgets/qslider.h \
