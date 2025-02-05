@@ -1,0 +1,9 @@
+# ninja log v6
+4	548	7602931442837195	CanConGrafica_autogen/timestamp	3f5020bf2554a1c0
+4	548	7602931442837195	CanConGrafica_autogen/mocs_compilation.cpp	3f5020bf2554a1c0
+4	548	7602931442837195	C:/Users/Andrea/Documents/Progetti QT/TreatmentTest/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CanConGrafica_autogen/timestamp	3f5020bf2554a1c0
+4	548	7602931442837195	C:/Users/Andrea/Documents/Progetti QT/TreatmentTest/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug/CanConGrafica_autogen/mocs_compilation.cpp	3f5020bf2554a1c0
+558	2692	7602931443550552	CMakeFiles/CanConGrafica.dir/mainwindow.cpp.obj	24539d1c6e41b5af
+552	2696	7602931443500555	CMakeFiles/CanConGrafica.dir/CanConGrafica_autogen/mocs_compilation.cpp.obj	88de625ed6c4b1f1
+555	3859	7602931443530553	CMakeFiles/CanConGrafica.dir/main.cpp.obj	7a0e4e227aa99332
+3860	4076	7602931476579631	CanConGrafica.exe	b929706b702f46b9

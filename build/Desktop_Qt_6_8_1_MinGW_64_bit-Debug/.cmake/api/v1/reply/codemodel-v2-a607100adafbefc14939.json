@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-29836e24ba9609155802.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CanConGrafica",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CanConGrafica::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CanConGrafica-Debug-20eee57d6c8437bfef67.json",
+					"name" : "CanConGrafica",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CanConGrafica_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CanConGrafica_autogen-Debug-6e84a541b51523dd88f1.json",
+					"name" : "CanConGrafica_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CanConGrafica_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CanConGrafica_autogen_timestamp_deps-Debug-7b273014e679e8357d27.json",
+					"name" : "CanConGrafica_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Andrea/Documents/Progetti QT/TreatmentTest/build/Desktop_Qt_6_8_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Andrea/Documents/Progetti QT/TreatmentTest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
