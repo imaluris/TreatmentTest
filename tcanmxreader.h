@@ -15,6 +15,9 @@ signals:
 public:
     void stop();
 
+signals:
+    void newCanDataReceived(const QString &message);  // Segnale per passare il messaggio al main thread
+
 protected:
     void run() override;  // Metodo che viene eseguito nel thread separato
 

@@ -1,7 +1,5 @@
 #include "mainwindow.h"
 #include "canlib.h"
-#include <QListWidget>
-#include "tcanmxreader.h"
 #include <QApplication>
 #include <QPushButton>
 
@@ -9,11 +7,13 @@
 CanHandle hnd;
 canStatus stat;
 MainWindow *w;
-QListWidget *listCan;
+QPlainTextEdit *listCan;
 
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
+    QApplication::setStyle("Fusion");
+
     w = new MainWindow();  // Crea il puntatore a MainWindow
     w->show();
 
