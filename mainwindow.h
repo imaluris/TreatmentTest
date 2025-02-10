@@ -8,11 +8,14 @@
 
 
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
 QT_END_NAMESPACE
+
+
 
 class MainWindow : public QMainWindow
 {
@@ -29,6 +32,7 @@ public:
 
 private slots:
     void onNewCanDataReceived(const QString &message);  // Slot per ricevere i messaggi CAN
+    void on_lineEdit_returnPressed();
 
 public slots:
     void on_pushStartButton_clicked();
@@ -38,7 +42,9 @@ public slots:
 signals:
     void newCanMessage(QString message);  // Segnale per un nuovo messaggio CAN
 
+
 private:
     Ui::MainWindow *ui;
+
 };
 #endif // MAINWINDOW_H

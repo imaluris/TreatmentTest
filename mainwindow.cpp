@@ -3,6 +3,11 @@
 #include "./ui_mainwindow.h"
 #include "canlib.h"
 #include "tcanmxreader.h"
+#include <QComboBox>
+#include <QPushButton>
+#include <QIcon>
+#include <QHBoxLayout>
+#include <QLabel>
 
 TCanMxReader worker;
 
@@ -13,7 +18,10 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+
     connect(&worker, &TCanMxReader::newCanDataReceived, this, &MainWindow::onNewCanDataReceived);
+
+
     connect(ui->displayType, &QCheckBox::toggled, this, &MainWindow::onCheckboxToggled);
     connect(ui->ButtonStart, &QPushButton::clicked, this, &MainWindow::on_pushStartButton_clicked);
     connect(ui->ButtonStop, &QPushButton::clicked, this, &MainWindow::on_pushStopButton_clicked);
@@ -89,4 +97,14 @@ void MainWindow::onCheckboxToggled(bool checked) {
 
     // Stampa lo stato della variabile per il debug
     qDebug() << "Variabile isChecked:" << displayType;
+}
+
+void MainWindow::on_lineEdit_returnPressed()
+{
+    QString item = ui->lineEdit->text();
+
+    if (!item.isEmpty()) {  // Controlla se il testo non è vuoto
+        //emit itemToProcess(item);
+    }
+
 }

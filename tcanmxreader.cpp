@@ -46,3 +46,7 @@ void TCanMxReader::run() {
 void TCanMxReader::stop() {
     stopFlag = true;
 }
+
+void processItem(const QString &item){
+
+}

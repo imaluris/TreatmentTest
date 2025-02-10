@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QListView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPlainTextEdit>
@@ -33,6 +34,7 @@ public:
     QCheckBox *displayType;
     QRadioButton *radioButton;
     QLineEdit *lineEdit;
+    QListView *listView;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -45,10 +47,10 @@ public:
         centralwidget->setObjectName("centralwidget");
         ButtonStart = new QPushButton(centralwidget);
         ButtonStart->setObjectName("ButtonStart");
-        ButtonStart->setGeometry(QRect(80, 190, 121, 51));
+        ButtonStart->setGeometry(QRect(90, 50, 121, 51));
         ButtonStop = new QPushButton(centralwidget);
         ButtonStop->setObjectName("ButtonStop");
-        ButtonStop->setGeometry(QRect(80, 370, 121, 51));
+        ButtonStop->setGeometry(QRect(90, 110, 121, 51));
         canList = new QPlainTextEdit(centralwidget);
         canList->setObjectName("canList");
         canList->setGeometry(QRect(310, 10, 871, 691));
@@ -56,13 +58,16 @@ public:
 "color:white;"));
         displayType = new QCheckBox(centralwidget);
         displayType->setObjectName("displayType");
-        displayType->setGeometry(QRect(90, 510, 111, 22));
+        displayType->setGeometry(QRect(100, 170, 111, 22));
         radioButton = new QRadioButton(centralwidget);
         radioButton->setObjectName("radioButton");
-        radioButton->setGeometry(QRect(90, 550, 91, 22));
+        radioButton->setGeometry(QRect(100, 250, 91, 22));
         lineEdit = new QLineEdit(centralwidget);
         lineEdit->setObjectName("lineEdit");
-        lineEdit->setGeometry(QRect(80, 570, 121, 24));
+        lineEdit->setGeometry(QRect(90, 270, 121, 24));
+        listView = new QListView(centralwidget);
+        listView->setObjectName("listView");
+        listView->setGeometry(QRect(90, 311, 121, 251));
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
